@@ -1,0 +1,54 @@
+.rcb {
+    background-color: rgb(191, 193, 191);
+    padding: 20px;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    background-image: url("css-pattern-by-magicpattern\ \(1\).png");
+}
+
+.rbc {
+    display: grid;
+    justify-content: center;
+}
+
+.div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(192, 192, 192);
+}
+
+.divcha {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    align-items: center;
+
+}
+
+.imgclass {
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+}
+
+.imgclass1 {
+    width: 350px;
+    height: 300px;
+    margin: 30px;
+}
+
+h1 {
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 45px;
+    color: rgb(182, 186, 185);
+}

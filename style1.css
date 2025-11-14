@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(./Gilroy-Regular.ttf);
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 130px;
+}
+
+.logoDiv i{
+    font-size: 30px; 
+    margin-right: 5px;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+}
+.logo1{
+    color: blue;
+}
+header {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+}
+
+.Li{
+    color: black;
+    
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #261a7f;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 70px 120px;
+    height: 50%;
+}
+
+#containerRight{
+    width: 50%;
+    background-image: url(https://www.workitdaily.com/media-library/man-on-laptop-condenses-his-resume.jpg?id=26729234&width=1200&height=800&quality=85&coordinates=0%2C0%2C0%2C0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.containerLeft{
+    width: 45%;
+    height: 50%;
+}
+
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit {
+    text-align: center;
+}
+
+.benefit h2 {
+    font-size: 1
+}
+
+.analytics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    top: 30%;
+    right: 3%;
+    font-size: 13px;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 6px 25px 6px 10px;
+    height: 60px;
+    border-radius : 30px;
+    color: white;
+    background-color: rgb(55, 143, 55);
+}
+
+.analytics h4{
+    font-size: 13px;
+}
+.analytics i{
+    font-size: 40px;
+    margin-right: 5px;
+    color: rgb(1, 73, 1);
+}
+
+.divcha{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 70px 120px;
+    height: 50%;
+}
+
+.footerLeft{
+    display: flex;  
+    flex-direction: column;
+    margin-right: 50px;
+}
+.footerLeft h1{
+    margin-bottom: 20px;
+}
+
+.footerLeft p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.footerRight{
+    width: 55%;
+    background-image: url(../ref\ imgefor\ c.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
